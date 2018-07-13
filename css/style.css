@@ -1,0 +1,320 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(36, 35, 41);
+    font-family:  Arial;
+    color: grey;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 3cm
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: 1cm
+}
+
+li a:hover {
+    color:white;
+}
+body{
+    background-color: rgb(36, 35, 41)
+}
+#propos{
+    color: white;
+    font-family: Arial;
+    margin-left: 43%
+
+}
+#fee{
+    width: 3cm;
+    height: 3cm;
+}
+#maison {
+    width: 7cm;
+    height: 6cm;
+    margin-bottom: cm;
+    
+}
+.marketing{
+    margin-left: 7cm;
+    font-family: Calibri;
+    float: right
+    
+
+    
+}
+#box{
+    background-color: rgb(52, 155, 83);
+    border: none;
+   
+}
+#mark{
+    color: white;
+    margin-right: 10cm
+}
+
+
+#maison1{
+    
+    width: 7cm;
+    height: 6cm;
+}
+.development{
+font-family: Calibri;
+float: left
+}
+#dev{
+    color: white;
+    
+}
+#box{
+    width: 29cm;
+    height: 7cm;
+    margin-left: 3cm
+}
+#box1{
+    background-color: rgb(52, 155, 83);
+    border: none;
+    width: 29cm;
+    height:7cm;
+    margin-left: 3cm;
+    
+}
+#parad{
+    margin-top: 2cm;
+}
+#maison2{
+    width: 7cm;
+height: 6cm;
+}
+#box2{
+    background-color: rgb(52, 155, 83);
+    border: none;
+    width: 29cm;
+    height:7cm;
+    margin-left: 3cm;
+    
+   
+}
+.design{
+    font-family: Calibri;
+    float: right;
+    
+}
+
+#paras{
+float: right;
+margin-right: 1cm;
+margin-top: 3cm
+}
+#des{
+    float: right;
+    margin-right: 4cm;
+color: white;
+}
+#video{
+    width: 100%;
+    height: 100%;
+    border: none
+}
+.house{
+    width: 8cm;
+    height: 6cm;
+  margin-left: 3cm;
+}
+* {
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  #mark{
+      float: right
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+  .column {
+    flex: 33.33%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+  * {
+    box-sizing: border-box;}
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+      }
+      
+      /* Create two equal columns that sits next to each other */
+      .column {
+        flex: 50%;
+        
+      }
+      
+      .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+      }
+      .pics{
+          width: 10cm;
+          height: 8cm;
+          margin-left: 2.5cm;
+      }
+#pic1{margin-left: -4px;}
+#pic2{margin-left: -6px}
+#pic3{
+    margin-top: -7px
+}
+#pic4{
+    margin-top: -7px;
+    margin-left: -6px
+}
+#pic5{
+    margin-top: -9px;
+    margin-left: -5px;
+}
+#p3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+#p2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+#p1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+#map{
+    margin-left: 11cm
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background: #ee2367;
+    color: white;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    height: 30px;
+}
+#p1{
+    visibility: hidden;
+    color: white
+}
+#p2{
+    visibility: hidden;
+    color: white;
+}
+#p3{
+    visibility: hidden;
+    color: white
+}
+#lol{
+    color: rgb(36, 35, 41)
+}
+#mdr{
+    color: rgb(36, 35, 41)
+}
+#xd{
+    color: rgb(36, 35, 41)
+}
+#box{
+    position: relative;
+    z-index: -1;
+    left: 550px;
+    transition: 500ms;
+    opacity: 0
+
+}
+#box1{
+    position: relative;
+    z-index: -1;
+    right: 550px;
+    transition: 500ms;
+    opacity: 0
+}
+#box2{
+    position: relative;
+    z-index: -1;
+    left: 550px;
+    transition: 500ms;
+    opacity: 0
+}
+#c{
+    margin-left: 15cm;
+    color: white;
+    font-family: Arial; 
+}
+#nintendo{
+    float: right;
+    height: 3cm;
+    width: 3cm;
+    display: none;
+}
+
+
+.legend{
+    font-family: Arial; 
+    color: white;
+    margin-left: 20cm;
+    display: none;
+}
+#pic6{
+    display: none;
+    float: left;
+}
+#pic7{
+    display: none;
+    float: left;
+}
+#pic8{
+    display: none;
+    float: left;
+}
+#pic9{
+    display: none;
+    float: left;
+}
+.pics1{
+    width: 7cm;
+    height: 6cm;
+    margin-left: 4cm
+}
